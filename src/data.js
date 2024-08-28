@@ -2,8 +2,8 @@ import avatar from "./images/girl.jpg";
 
 // 导航 Tabs
 export const tabList = [
-  { type: "hot", text: "最热" },
-  { type: "time", text: "最新" },
+  { label: "最热", value: "hot" },
+  { label: "最新", value: "time" },
 ];
 
 // 当前登录用户信息
@@ -43,7 +43,7 @@ export const commentList = [
     user: {
       uid: "30009257",
       avatar,
-      uname: "汪苏泷",
+      uname: "语佳",
     },
     content: "你就是我的小星星",
     ctime: "10-19 09:00",
